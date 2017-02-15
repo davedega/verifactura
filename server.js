@@ -24,7 +24,7 @@ var SERVER_NAME = "localhost";
 /**
  * The port in which the server will be anwsering.
  * */
-var PORT = 4000;
+var PORT = process.env.PORT || 8000
 
 var connection = {
     host: 'localhost',
