@@ -119,7 +119,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="240">
               <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
@@ -300,12 +300,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487111414113</updated>
       <workItem from="1487111415459" duration="3780000" />
-      <workItem from="1487118535782" duration="2255000" />
+      <workItem from="1487118535782" duration="2373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6035000" />
+    <option name="totallyTimeSpent" value="6153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-52" y="-745" width="1280" height="729" extended-state="0" />
@@ -528,7 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="240">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
