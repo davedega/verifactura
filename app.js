@@ -33,9 +33,14 @@ var connection = {
 db.sayhello();
 
 
-db.connect(getDbConf(), function (err) {
-  (err) ? error(err) : success(app);
-})
+app.listen(PORT, SERVER_NAME, function () {
+  console.log("Listening on port " + PORT);
+  require('./routes/routes.js')(app);
+});
+
+// db.connect(getDbConf(), function (err) {
+//     (err) ? error(err) : success(app);
+// })
 
 // connection.connect(function (err) {
 //     (err) ? error(err) : success(app);
