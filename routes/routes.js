@@ -15,6 +15,10 @@ module.exports = function (app) {
         next();
     });
 
+    app.get('/', function (req, res) {
+        res.send(JSON.stringify("successfully deployed"));
+    });
+
 
     //sign up
     app.post('/cfdi', function (req, res) {
@@ -30,7 +34,7 @@ module.exports = function (app) {
             console.log('id' + id);
             console.log('total' + total);
             console.log('qr' + qr);
-        
+
             dao.newCFDI(emisor, receptor, id, total, qr, function (response) {
                 res.send(JSON.stringify(response));
             });
